@@ -23,7 +23,7 @@
 - TMDB API v3 PHP Library - wrapper to API version 3 of themoviedb.org by 'pixelead0'
 (https://github.com/pixelead0/tmdb_v3-PHP-API-/)
 
-- This project has been being worked by a group of 3
--- Me - 'Viet Hung Do' as leader, project backend dev, project combiner
--- 'Minh Dat Doan' as project frontend dev
--- 'Thanh Dat Tran' as project supporter, tester
+## This project has been being worked by a group of 3
+- Me - 'Viet Hung Do' as leader, project backend dev, project combiner
+- 'Minh Dat Doan' as project frontend dev
+- 'Thanh Dat Tran' as project supporter, tester
