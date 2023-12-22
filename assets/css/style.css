@@ -558,7 +558,7 @@ body.active {
 \*-----------------------------------*/
 
 .hero {
-  background: url("http://localhost/netflop_alpha/assets/images/hero-bg.jpg") no-repeat;
+  background: url("http://localhost/NetFlop/assets/images/hero-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 750px;
@@ -598,7 +598,7 @@ body.active {
 \*-----------------------------------*/
 
 .upcoming {
-  background: url("http://localhost/netflop_alpha/assets/images/upcoming-bg.png") no-repeat;
+  background: url("http://localhost/NetFlop/assets/images/upcoming-bg.png") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -648,7 +648,7 @@ body.active {
 \*-----------------------------------*/
 
 .service {
-  background: url(".http://localhost/netflop_alpha/assets/images/service-bg.jpg") no-repeat;
+  background: url(".http://localhost/NetFlop/assets/images/service-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -798,7 +798,7 @@ body.active {
 }
 
 .top-rated {
-  background: url("http://localhost/netflop_alpha/assets/images/top-rated-bg.jpg") no-repeat;
+  background: url("http://localhost/NetFlop/assets/images/top-rated-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -858,7 +858,7 @@ body.active {
 \*-----------------------------------*/
 
 .tv-series {
-  background: url("http://localhost/netflop_alpha/assets/images/tv-series-bg.jpg");
+  background: url("http://localhost/NetFlop/assets/images/tv-series-bg.jpg");
   background-size: cover;
   background-position: center;
   padding-block: var(--section-padding);
@@ -877,7 +877,7 @@ body.active {
 \*-----------------------------------*/
 
 .cta {
-  background: url("http://localhost/netflop_alpha/assets/images/cta-bg.jpg") no-repeat;
+  background: url("http://localhost/NetFlop/assets/images/cta-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -940,7 +940,7 @@ body.active {
 \*-----------------------------------*/
 
 .footer-top {
-  background: url("http://localhost/netflop_alpha/assets/images/footer-bg.jpg") no-repeat;
+  background: url("http://localhost/NetFlop/assets/images/footer-bg.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   padding-block: 80px 50px;
