@@ -27,3 +27,6 @@
 - Me - 'Viet Hung Do' as leader, project backend dev, project combiner
 - 'Minh Dat Doan' as project frontend dev
 - 'Thanh Dat Tran' as project supporter, tester
+
+### This is our first project so i have to admit that this project is far from optimal ^^
+### Studying and researching purpose only!
