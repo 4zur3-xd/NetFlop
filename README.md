@@ -24,7 +24,7 @@
 (https://github.com/pixelead0/tmdb_v3-PHP-API-/)
 
 ## This project has been being worked by a group of 3
-- Me - 'Viet Hung Do' as leader, project backend dev, project combiner
+- Me - 'Viet Hung Do' as leader, project backend dev, project integrator
 - 'Minh Dat Doan' as project frontend dev
 - 'Thanh Dat Tran' as project supporter, tester
 
