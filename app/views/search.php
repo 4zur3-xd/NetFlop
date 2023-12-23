@@ -281,10 +281,10 @@
                 <p><ion-icon name="calendar-outline" style="display: inline-block;"></ion-icon>&nbsp;'.$movie->get('release_date').'&emsp;&emsp;<ion-icon name="star" style="display: inline-block;"></ion-icon>&nbsp;'.$movie->get('vote_average').'</p>
               </div>';
               if(!empty($movie->get('overview'))){
-                if(strlen($movie->get('overview')) < 775){
+                if(strlen($movie->get('overview')) < 625){
                   echo '<p>'.$movie->get('overview').'</p>';
                 }else{
-                  $shorten = str_split($movie->get('overview'), 775)[0].'...';
+                  $shorten = str_split($movie->get('overview'), 625)[0].'...';
                   echo '<p>'.$shorten.'</p>';
                 }
               }else{
@@ -316,10 +316,10 @@
                 <p><ion-icon name="today-outline" style="display: inline-block;"></ion-icon>&nbsp;'.$tv->get('first_air_date').'&emsp;&emsp;<ion-icon name="star" style="display: inline-block;"></ion-icon>&nbsp;'.$tv->get('vote_average').'</p>
               </div>';
           if(!empty($tv->get('overview'))){
-            if(strlen($tv->get('overview')) < 775){
+            if(strlen($tv->get('overview')) < 625){
               echo '<p>'.$tv->get('overview').'</p>';
             }else{
-              $shorten = str_split($tv->get('overview'), 775)[0].'...';
+              $shorten = str_split($tv->get('overview'), 625)[0].'...';
               echo '<p>'.$shorten.'</p>';
             }
           }else{

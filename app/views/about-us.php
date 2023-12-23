@@ -252,14 +252,14 @@
                         src="https://scontent.fhan5-11.fna.fbcdn.net/v/t1.6435-9/106491905_737471137065032_4077126789011269608_n.jpg?stp=dst-jpg_p960x960&_nc_cat=100&ccb=1-7&_nc_sid=783fdb&_nc_eui2=AeFdEB0zUiEqVizIjhxR3czYGx5NJJPm3Y8bHk0kk-bdjzsKV0f2dPLWjH1dPjfeHVXk_lEOgjAhhhbD3iaa6DRe&_nc_ohc=2-APcweitnAAX8oxzHT&_nc_ht=scontent.fhan5-11.fna&oh=00_AfAjeyb9ajfdb60m0Zg9JGANVi6jlXzIkEI6smPajYgEhQ&oe=65AA9DDB"
                         alt="">
                     <img class="avt"
-                        src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTMvlQoTxAOCvE83m9oQfW-lEvqXJVDKYwixuxK7owK3UMkH1h7"
+                        src="https://scontent.fhan20-1.fna.fbcdn.net/v/t39.30808-6/277570863_1160966468048828_974847261491197991_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFw7fKyhb85aeFERCnB-1xP_qQwxBA8vkX-pDDEEDy-RR8VIU8WITcQlC-hjikJlFS-wLs0KF3fPZfbH-TDgmpQ&_nc_ohc=02GvngzpnBYAX8g5lyd&_nc_ht=scontent.fhan20-1.fna&oh=00_AfAc4nB4n-abWsQijeEx3x9we0SNF5NaRnCajFxLLqXSfg&oe=658B0C77"
                         alt="">
                     <h4 class="card-name">Thanh Dat Tran</h4>
                     <div class="job-position">Fullstack-dev</div>
                     <div class="social-conect">
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/ambition2002"><i class="fa-brands fa-facebook"></i></a>
                         <a href=""><i class="fa-brands fa-github"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/aaronofrod?fbclid=IwAR0nSGsRcbFZnD49qJaptCLJ0enwJMx0LGQjE7RDOdYTepk91AMj64T1FMk"><i class="fa-brands fa-linkedin"></i></a>
                         <a href=""><i class="fa-solid fa-hand-holding-dollar"></i></a>
                     </div>
                     <div class="skill">

@@ -394,7 +394,13 @@ if(!empty($review_submit_info)){
                     for($i = 0; $i < 4; $i++){
                       echo '
                       <div class="control-create-actor control-actor">
-                        <img src="'._TMDB_IMG.$casts[$i]['profile_path'].'" />
+                        <img src="';
+                        if(!empty($casts[$i]['profile_path'])){
+                          echo _TMDB_IMG.$casts[$i]['profile_path'];
+                        }else{
+                          echo _DEFAULT_PATH.'/assets/images/no-img-found.png';
+                        }
+                        echo '" />
                         <div class="text-creater-actor">
                           <h6>'.$casts[$i]['name'].'</h6>
                           <p>'.$casts[$i]['character'].'</p>
@@ -406,7 +412,13 @@ if(!empty($review_submit_info)){
                     for($i = 0; $i < count($casts); $i++){
                       echo '
                       <div class="control-create-actor control-actor">
-                        <img src="'._TMDB_IMG.$casts[$i]['profile_path'].'" />
+                        <img src="';
+                        if(!empty($casts[$i]['profile_path'])){
+                          echo _TMDB_IMG.$casts[$i]['profile_path'];
+                        }else{
+                          echo _DEFAULT_PATH.'/assets/images/no-img-found.png';
+                        }
+                        echo '" />
                         <div class="text-creater-actor">
                           <h6>'.$casts[$i]['name'].'</h6>
                           <p>'.$casts[$i]['character'].'</p>
