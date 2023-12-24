@@ -289,16 +289,15 @@ if(!empty($repass_valid_msg)){
                   if(count($_SESSION['user_fav']) > 1){
                     global $_TMDB;
                     foreach($_SESSION['user_fav'] as $item){
-                      if($item == 'admin'){
-                        continue;
-                      }
                       $pair = explode('/', $item);
                       if($pair[0] == 'm'){
                         $title = $_TMDB->getMovie($pair[1])->getTitle();
                         $img = $_TMDB->getMovie($pair[1])->get('poster_path');
-                      }else{
+                      }elseif($pair[0] == 'tv'){
                         $title = $_TMDB->getTVShow($pair[1])->getName();
                         $img = $_TMDB->getTVShow($pair[1])->get('poster_path');
+                      }else{
+                        continue;
                       }
                       echo '<img src="';
                       if(!empty($img)){
