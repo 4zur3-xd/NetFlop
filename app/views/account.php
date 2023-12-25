@@ -238,11 +238,9 @@ if(!empty($repass_valid_msg)){
         <div class="suggest-content">
           <div class="menu-option">
             <i class="fa-solid fa-bars"></i>
-            <h5>NetFlop user account</h5>
+            <h5>NetFlop account</h5>
           </div>
-          <div class="option">
-            <h5 style="text-aglign: left;">Role: <strong style="color: rgb(227, 216, 3);"><?php echo $_SESSION['user_role']; ?></strong></h5>
-          </div>
+
         </div>
         <div class="content" id="myForm">
           <div class="information">

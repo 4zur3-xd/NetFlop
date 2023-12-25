@@ -292,7 +292,7 @@ if(!empty($msg['user_unban'])){
                                                 <div class="control-action">';
                                                     if($user['username'] != 'admin' && $user['username'] != $_SESSION['user_username']){
                                                         if($user['status'] == 1){
-                                                            echo '<button onclick="ban_'.$user['username'].'()">BAN</button>';
+                                                            echo '<button style="width: 77px;" onclick="ban_'.$user['username'].'()">BAN</button>';
                                                             echo '
                                                             <script>
                                                             function ban_'.$user['username'].'(){
@@ -317,7 +317,7 @@ if(!empty($msg['user_unban'])){
                                                             </form>
                                                             ';
                                                         }else{
-                                                            echo '<button onclick="unban_'.$user['username'].'()">UNBAN</button>';
+                                                            echo '<button style="background-color: blue;" onclick="unban_'.$user['username'].'()">UNBAN</button>';
                                                             echo '
                                                             <script>
                                                             function unban_'.$user['username'].'(){
@@ -375,7 +375,7 @@ if(!empty($msg['user_unban'])){
                                                     <div class="control-action">';
                                                         if($all_users[$index]['username'] != 'admin' && $all_users[$index]['username'] != $_SESSION['user_username']){
                                                             if($all_users[$index]['status'] == 1){
-                                                                echo '<button onclick="ban_'.$all_users[$index]['username'].'()">BAN</button>';
+                                                                echo '<button style="width: 77px;" onclick="ban_'.$all_users[$index]['username'].'()">BAN</button>';
                                                                 echo '
                                                                 <script>
                                                                 function ban_'.$all_users[$index]['username'].'(){
@@ -400,7 +400,7 @@ if(!empty($msg['user_unban'])){
                                                                 </form>
                                                                 ';
                                                             }else{
-                                                                echo '<button onclick="unban_'.$all_users[$index]['username'].'()">UNBAN</button>';
+                                                                echo '<button style="background-color: blue;" onclick="unban_'.$all_users[$index]['username'].'()">UNBAN</button>';
                                                                 echo '
                                                                 <script>
                                                                 function unban_'.$all_users[$index]['username'].'(){
@@ -449,7 +449,7 @@ if(!empty($msg['user_unban'])){
                                                     <div class="control-action">';
                                                         if($all_users[$index]['username'] != 'admin' && $all_users[$index]['username'] != $_SESSION['user_username']){
                                                             if($all_users[$index]['status'] == 1){
-                                                                echo '<button onclick="ban_'.$all_users[$index]['username'].'()">BAN</button>';
+                                                                echo '<button style="width: 77px;" onclick="ban_'.$all_users[$index]['username'].'()">BAN</button>';
                                                                 echo '
                                                                 <script>
                                                                 function ban_'.$all_users[$index]['username'].'(){
@@ -474,7 +474,7 @@ if(!empty($msg['user_unban'])){
                                                                 </form>
                                                                 ';
                                                             }else{
-                                                                echo '<button onclick="unban_'.$all_users[$index]['username'].'()">UNBAN</button>';
+                                                                echo '<button style="background-color: blue;" onclick="unban_'.$all_users[$index]['username'].'()">UNBAN</button>';
                                                                 echo '
                                                                 <script>
                                                                 function unban_'.$all_users[$index]['username'].'(){
@@ -525,7 +525,7 @@ if(!empty($msg['user_unban'])){
                                                     <div class="control-action">';
                                                         if($all_users[$index]['username'] != 'admin' && $all_users[$index]['username'] != $_SESSION['user_username']){
                                                             if($all_users[$index]['status'] == 1){
-                                                                echo '<button onclick="ban_'.$all_users[$index]['username'].'()">BAN</button>';
+                                                                echo '<button style="width: 77px;" onclick="ban_'.$all_users[$index]['username'].'()">BAN</button>';
                                                                 echo '
                                                                 <script>
                                                                 function ban_'.$all_users[$index]['username'].'(){
@@ -550,7 +550,7 @@ if(!empty($msg['user_unban'])){
                                                                 </form>
                                                                 ';
                                                             }else{
-                                                                echo '<button onclick="unban_'.$all_users[$index]['username'].'()">UNBAN</button>';
+                                                                echo '<button style="background-color: blue;" onclick="unban_'.$all_users[$index]['username'].'()">UNBAN</button>';
                                                                 echo '
                                                                 <script>
                                                                 function unban_'.$all_users[$index]['username'].'(){
@@ -599,7 +599,7 @@ if(!empty($msg['user_unban'])){
                                                     <div class="control-action">';
                                                         if($all_users[$index]['username'] != 'admin' && $all_users[$index]['username'] != $_SESSION['user_username']){
                                                             if($all_users[$index]['status'] == 1){
-                                                                echo '<button onclick="ban_'.$all_users[$index]['username'].'()">BAN</button>';
+                                                                echo '<button style="width: 77px;" onclick="ban_'.$all_users[$index]['username'].'()">BAN</button>';
                                                                 echo '
                                                                 <script>
                                                                 function ban_'.$all_users[$index]['username'].'(){
@@ -624,7 +624,7 @@ if(!empty($msg['user_unban'])){
                                                                 </form>
                                                                 ';
                                                             }else{
-                                                                echo '<button onclick="unban_'.$all_users[$index]['username'].'()">UNBAN</button>';
+                                                                echo '<button style="background-color: blue;" onclick="unban_'.$all_users[$index]['username'].'()">UNBAN</button>';
                                                                 echo '
                                                                 <script>
                                                                 function unban_'.$all_users[$index]['username'].'(){
