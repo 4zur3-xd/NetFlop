@@ -319,7 +319,7 @@
 
                     <h4 style="margin-top: 150px;">Big thanks</h4>
                     <p>
-                        Big thanks to "TMDB API v3 PHP Library - wrapper to API version 3 of themoviedb.org" by pixelead0 (<a href="https://github.com/pixelead0/tmdb_v3-PHP-API-/" style="display: inline-block; color: rgb(227, 216, 3);">Git</a>)
+                        Big thanks to "TMDB API v3 PHP Library - wrapper to API version 3 of themoviedb.org" by pixelead0 <br>(<a href="https://github.com/pixelead0/tmdb_v3-PHP-API-/" style="display: inline-block; color: rgb(227, 216, 3);">Git</a>)
                     </p>
                 </div>
                 <div class="control-about-web">
