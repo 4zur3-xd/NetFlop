@@ -301,18 +301,4 @@ class Detail extends Controller{
     
         $response->redirect(_DEFAULT_PATH.'/detail/'.$_POST['type'].'/'.$_POST['post_id']);
     }
-
-    public function test(){
-        echo '<pre>';
-        print_r($_SERVER);
-        echo '</pre>';
-        // global $_TMDB;
-
-        // $detail = $_TMDB->getMovie(1048903);
-
-        // echo '<pre>';
-        // print_r($detail);
-        // echo '</pre>';
-    }
-
 }
