@@ -45,6 +45,7 @@ class Database{
 
         if(!empty($data)){
             foreach($data as $key => $value){
+                $value = mysqli_real_escape_string($this->__connect, $value);
                 $fields .= $key.',';
                 $inputs .= '"'.$value.'",';
             }
@@ -67,11 +68,14 @@ class Database{
 
         if(!empty($data)){
             foreach($data as $key => $value){
+                $value = mysqli_real_escape_string($this->__connect, $value);
                 $inputs .= $key.'="'.$value.'",';
             }
             $inputs = rtrim($inputs, ',');
 
             if(!empty($condition)){
+                $condition = mysqli_real_escape_string($this->__connect, $condition);
+
                 $sql_query = 'UPDATE '.$table.' SET '.$inputs.' WHERE '.$condition;
             }else{
                 $sql_query = 'UPDATE '.$table.' SET '.$inputs;
@@ -87,6 +91,8 @@ class Database{
 
     public function delete($table, $condition = ''){
         if(!empty($condition)){
+            $condition = mysqli_real_escape_string($this->__connect, $condition);
+
             $sql_query = 'DELETE FROM '.$table.' WHERE '.$condition;
         }else{
             $sql_query = 'DELETE FROM '.$table;
@@ -101,6 +107,8 @@ class Database{
 
     public function select($table, $condition = ''){
         if(!empty($condition)){
+            $condition = mysqli_real_escape_string($this->__connect, $condition);
+
             $sql_query = 'SELECT * FROM '.$table.' WHERE '.$condition;
         }else{
             $sql_query = 'SELECT * FROM '.$table;

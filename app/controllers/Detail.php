@@ -125,26 +125,6 @@ class Detail extends Controller{
         }
     }
 
-    // public function p($id = ''){
-    //     if(empty($id)){
-    //         $response = new Response();
-
-    //         $response->redirect(_DEFAULT_PATH);
-    //     }
-
-    //     global $_TMDB;
-
-    //     $detail = $_TMDB->getPerson($id);
-
-    //     if(empty($detail->get())){
-    //         App::$app->errorRp();
-    //     }else{
-    //         $this->data['person_page_title'] = $detail->getName();
-
-    //         $this->data['person_detail'] = $detail;
-    //     }
-    // }
-
     public function review_submit(){
         global $_DATABASE;
 

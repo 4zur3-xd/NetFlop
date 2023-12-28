@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 22, 2023 at 08:41 AM
+-- Generation Time: Dec 28, 2023 at 07:50 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -151,6 +151,7 @@ INSERT INTO `users` (`username`, `hash`, `role`, `email`, `created_time`, `fulln
 ('admin', 'd200ae5a4aeb88e378c533f71b4eaf8c83daaf932e925aaa193f6d071273ca0d', 'admin', '4zur3.com@gmail.com', '2023-12-21 12:47:36', 'Hunter Do', 1, '2002-09-15', 'tv/87083,tv/1434,m/1057088,m/71689,m/1048903,m/793822,m/668068,m/1063616,m/901362,m/1047041,m/257512'),
 ('admin2', 'd200ae5a4aeb88e378c533f71b4eaf8c83daaf932e925aaa193f6d071273ca0d', 'admin', 'admin2@gmail.com', '2023-12-17 12:18:53', 'Test admin phu', 1, NULL, 'admin'),
 ('bantest', '3f8bb66db22c3223b8484385c2ad00a8d69d492b945891aacb37e9435f5b42f4', 'normal', 'test@gmail.com', '2023-12-21 15:44:25', NULL, 0, NULL, 'admin'),
+('bugfix', '3f8bb66db22c3223b8484385c2ad00a8d69d492b945891aacb37e9435f5b42f4', 'normal', 'bug@gmail.com', '2023-12-24 02:41:32', NULL, 1, NULL, '\'admin\',tv/1433'),
 ('datlogarit', '3f8bb66db22c3223b8484385c2ad00a8d69d492b945891aacb37e9435f5b42f4', 'normal', 'datlogarit@gmail.com', '2023-12-17 12:18:59', NULL, 1, NULL, 'admin'),
 ('hung15902', '052e3982a284e3f5d40b7d81012328755eaa5142567d0bc24b1a32d662b14333', 'normal', 'doviethung15092002@gmail.com', '2023-12-17 12:19:02', NULL, 1, NULL, 'tv/1434,tv/87083,admin'),
 ('messi', '3f8bb66db22c3223b8484385c2ad00a8d69d492b945891aacb37e9435f5b42f4', 'normal', 'work@messi.com', '2023-12-17 12:19:05', 'Lionel Messi', 1, '1987-06-24', 'admin'),
