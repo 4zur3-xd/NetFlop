@@ -8,19 +8,16 @@
 - IMPORTANT (if you are MAC OS user or you don't setup Xampp (or other virtual servers) in default location or there is no htdocs folder): You have to modify the _DEFAULT_PATH at bootstrap.php line 5 and 6 (str_replace).
 
 ## Notice
-
 - Main admin username - password: admin - hung
 - Sub admin username - password: admin2 - hung
 
 ## Tech
-
 - Backend: PHP
 - Frontend: CSS, JS, Bootstrap
 - Database: MySQL
 - API: https://www.themoviedb.org/
 
 ## Credit
-
 - TMDB API v3 PHP Library - wrapper to API version 3 of themoviedb.org by 'pixelead0'
 (https://github.com/pixelead0/tmdb_v3-PHP-API-/)
 
