@@ -5,14 +5,14 @@
 - Create a Database with name: 'netflop'
 - Import 'netflop.sql' to 'netflop' Database
 - Modify 'host', 'user', 'pass' (your mysql access) of $config['database'] in configs/database.php
-- IMPORTANT (if you are MAC OS user or you don't setup Xampp (or other virtual servers) in default location or there is no htdocs folder): You have to modify the _DEFAULT_PATH at bootstrap.php line 5 and 6 (str_replace).
+- IMPORTANT (if you are MAC OS user or you don't setup Xampp (or other virtual servers) in default location or there is no htdocs folder): You have to modify the _DEFAULT_PATH at bootstrap.php line 5 and 6 (str_replace); modify some absolute links in assets/css/style.css.
 
 ## Notice
 - Main admin username - password: admin - hung
 - Sub admin username - password: admin2 - hung
 
 ## Tech
-- Backend: PHP
+- Backend: PHP v8.2
 - Frontend: CSS, JS, Bootstrap
 - Database: MySQL
 - API: https://www.themoviedb.org/
