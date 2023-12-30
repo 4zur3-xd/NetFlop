@@ -12,6 +12,7 @@
 - Sub admin username - password: admin2 - hung
 
 ## Tech
+- Design Pattern: Model-View-Controller (MVC)
 - Backend: PHP v8.2
 - Frontend: CSS, JS, Bootstrap
 - Database: MySQL
