@@ -187,6 +187,10 @@
             <li>
               <a href="<?php echo _DEFAULT_PATH ?>/about" class="navbar-link">About Us</a>
             </li>
+
+            <li>
+              <a href="<?php echo _DEFAULT_PATH ?>/chatgpt" class="navbar-link">AI Chat</a>
+            </li>
           </ul>
 
           <ul class="navbar-social-list">
@@ -489,6 +493,10 @@
               <li>
                 <a href="<?php echo _DEFAULT_PATH ?>/about" class="footer-link">About Us</a>
               </li>
+
+              <li>
+              <a href="<?php echo _DEFAULT_PATH ?>/chatgpt" class="footer-link">AI Chat</a>
+            </li>
             </ul>
           </div>
 

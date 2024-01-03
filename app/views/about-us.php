@@ -178,6 +178,10 @@
             <li>
               <a href="<?php echo _DEFAULT_PATH ?>/about" class="navbar-link">About Us</a>
             </li>
+
+            <li>
+              <a href="<?php echo _DEFAULT_PATH ?>/chatgpt" class="navbar-link">AI Chat</a>
+            </li>
           </ul>
 
           <ul class="navbar-social-list">
@@ -217,13 +221,13 @@
 
     <main>
         <div class="about-dev">
-            <h3 class="title-about-us">About Developer</h3>
+            <h3 class="title-about-us">About Developers</h3>
             <div class="control-card">
                 <div class="card">
                     <img class="cover-img" src="https://i.pinimg.com/736x/4b/29/d0/4b29d0a2141f45fcdf85f4c161a5bd7e.jpg"
                         alt="">
                     <img class="avt"
-                        src="https://scontent.fhan20-1.fna.fbcdn.net/v/t39.30808-6/340838188_968644084303252_8454539186383077349_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeGx91dUn01nvHaZmHFKiwvOsGTPEk0h6bmwZM8STSHpuTb7fsDVlk8r4ML_Q0KKqq5dvMBSdvvyPuCj0cbbBcUO&_nc_ohc=DHYVjT6uXU4AX-CxyM6&_nc_ht=scontent.fhan20-1.fna&oh=00_AfC8vXKLzZztNie_po0l0QxtE9t5-ZfgtOMZO_kRGHaJVg&oe=65872252"
+                        src="<?php echo _DEFAULT_PATH ?>/assets/images/_founder_doandat.jpg"
                         alt="">
                     <h4 class="card-name">Minh Dat Doan</h4>
                     <div class="job-position">Frontend-dev</div>
@@ -252,7 +256,7 @@
                         src="https://scontent.fhan5-11.fna.fbcdn.net/v/t1.6435-9/106491905_737471137065032_4077126789011269608_n.jpg?stp=dst-jpg_p960x960&_nc_cat=100&ccb=1-7&_nc_sid=783fdb&_nc_eui2=AeFdEB0zUiEqVizIjhxR3czYGx5NJJPm3Y8bHk0kk-bdjzsKV0f2dPLWjH1dPjfeHVXk_lEOgjAhhhbD3iaa6DRe&_nc_ohc=2-APcweitnAAX8oxzHT&_nc_ht=scontent.fhan5-11.fna&oh=00_AfAjeyb9ajfdb60m0Zg9JGANVi6jlXzIkEI6smPajYgEhQ&oe=65AA9DDB"
                         alt="">
                     <img class="avt"
-                        src="https://scontent.fhan20-1.fna.fbcdn.net/v/t39.30808-6/277570863_1160966468048828_974847261491197991_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFw7fKyhb85aeFERCnB-1xP_qQwxBA8vkX-pDDEEDy-RR8VIU8WITcQlC-hjikJlFS-wLs0KF3fPZfbH-TDgmpQ&_nc_ohc=02GvngzpnBYAX8g5lyd&_nc_ht=scontent.fhan20-1.fna&oh=00_AfAc4nB4n-abWsQijeEx3x9we0SNF5NaRnCajFxLLqXSfg&oe=658B0C77"
+                        src="<?php echo _DEFAULT_PATH ?>/assets/images/_founder_thanhdat.png"
                         alt="">
                     <h4 class="card-name">Thanh Dat Tran</h4>
                     <div class="job-position">Fullstack-dev</div>
@@ -280,7 +284,7 @@
                         src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.6435-9/107102460_700597944127909_8703576815857672183_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=300f58&_nc_eui2=AeG2Yp7zI5uiB1HBHfTzsslvSo6SARCgK6NKjpIBEKAro8KZDLmZIVDrTcntbLeMPHZkCaVkZk19NloTETpAkEtl&_nc_ohc=NTImJ5M58VIAX-7HAbe&_nc_ht=scontent.fhan5-8.fna&oh=00_AfBKKJA5q7HcfiWsdVVSdDFd0nh2n-Qpeda-cQGvWcgu7A&oe=65AA8D6D"
                         alt="">
                     <img class="avt"
-                        src="https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/362908462_1438178687036494_8403646531001534496_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFt5Ur7_yicA5Xb_o1PuF6gHDtRma1NZlIcO1GZrU1mUm5MitfxDau-1XWhRiSPBazpY-GCmavaaoE1UQik23wG&_nc_ohc=JBr0mVjhOR8AX82pzdq&_nc_ht=scontent.fhan15-2.fna&oh=00_AfDwquE10ijduYkDwkKcE_pxbtjnNcncR5yQwKRYB--9_A&oe=658A14A0"
+                        src="<?php echo _DEFAULT_PATH ?>/assets/images/_founder_hunterdo.png"
                         alt="">
                     <h4 class="card-name">Viet Hung Do</h4>
                     <div class="job-position">Backend-dev</div>
@@ -372,6 +376,10 @@
 
             <li>
               <a href="<?php echo _DEFAULT_PATH ?>/about" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="<?php echo _DEFAULT_PATH ?>/chatgpt" class="footer-link">AI Chat</a>
             </li>
           </ul>
         </div>
