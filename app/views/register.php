@@ -63,7 +63,7 @@
 									<div class="form-group">
 										<div class="custom-checkbox custom-control">
 											<input type="checkbox" name="remember" id="remember" class="custom-control-input" required>
-											<label for="remember" class="custom-control-label">I agree to the <a href="#" class="link_creat">Terms and Conditions</a></label>
+											<label for="remember" class="custom-control-label">I agree to the <a href="<?php echo _DEFAULT_PATH ?>/about" class="link_creat">Terms and Conditions</a></label>
 										</div>
 									</div>
 	
