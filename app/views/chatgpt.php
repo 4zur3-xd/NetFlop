@@ -26,7 +26,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="bg-[#242526]">
+  <body class="bg-[#242526]" onload="window.scrollTo(0, document.body.scrollHeight)">
     <html>
       <header>
         <title>Mobile Chat Layout</title>
@@ -108,6 +108,7 @@ if(!empty($_SESSION['user_username'])){
           style="bottom: 0px; background-color: #242526;"
         >
           <input
+            id="main-input"
             form="chatgpt"
             name="body"
             class="text-[#fff] flex-grow m-2 py-2 px-4 mr-1 rounded-full border border-gray-300 bg-[#3a3b3c] resize-none hover:border-[#fff]  focus:border-[#fff]"
@@ -117,7 +118,7 @@ if(!empty($_SESSION['user_username'])){
             required
             autocomplete="off"
           >
-          <button form="chatgpt" class="m-2" style="outline: none">
+          <button form="chatgpt" class="m-2" style="outline: none" id="main-btn" onclick="chatSubmit()">
             <svg
               class="svg-inline--fa text-[#e3d803] fa-paper-plane fa-w-16 w-12 h-12 py-2 mr-2"
               aria-hidden="true"
@@ -140,6 +141,13 @@ if(!empty($_SESSION['user_username'])){
 ';}
 
 ?>
+
+<!-- library of popup -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- custom js link-->
+<script src="<?php echo _DEFAULT_PATH ?>/assets/js/chatgpt.js"></script>
+
       </body>
     </html>
   </body>

@@ -38,7 +38,7 @@ class ChatGPT extends Controller{
                ]
             ],
             'temperature' => 0.5,
-            "max_tokens" => 400,
+            "max_tokens" => 666,
             "top_p" => 1.0,
             "frequency_penalty" => 0.52,
             "presence_penalty" => 0.5,
