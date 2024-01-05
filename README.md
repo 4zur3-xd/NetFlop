@@ -29,4 +29,4 @@
 - 'Thanh Dat Tran' as project supporter, tester
 
 ### This is our first project so i have to admit that this project is far from optimal ^^
-### _Studying and researching purpose only!_
+### _Studying and researching purposes only!_
