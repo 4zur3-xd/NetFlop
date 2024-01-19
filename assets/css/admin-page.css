@@ -210,18 +210,21 @@
 /* Pagenation */
 
 .next-page {
-  margin: 25px auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 200px;
 }
 
 .next-page .next-page-control {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 23px;
 }
 
 .next-page .next-page-control a {
   color: #ddd;
+  margin: 25px;
 }
 
 .next-page .next-page-control a:hover {
