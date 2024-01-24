@@ -253,7 +253,7 @@
                 </div>
                 <div class="card">
                     <img class="cover-img"
-                        src="https://scontent.fhan5-11.fna.fbcdn.net/v/t1.6435-9/106491905_737471137065032_4077126789011269608_n.jpg?stp=dst-jpg_p960x960&_nc_cat=100&ccb=1-7&_nc_sid=783fdb&_nc_eui2=AeFdEB0zUiEqVizIjhxR3czYGx5NJJPm3Y8bHk0kk-bdjzsKV0f2dPLWjH1dPjfeHVXk_lEOgjAhhhbD3iaa6DRe&_nc_ohc=2-APcweitnAAX8oxzHT&_nc_ht=scontent.fhan5-11.fna&oh=00_AfAjeyb9ajfdb60m0Zg9JGANVi6jlXzIkEI6smPajYgEhQ&oe=65AA9DDB"
+                        src="<?php echo _DEFAULT_PATH ?>/assets/images/_founder_bg_1.jpg"
                         alt="">
                     <img class="avt"
                         src="<?php echo _DEFAULT_PATH ?>/assets/images/_founder_thanhdat.png"
@@ -281,7 +281,7 @@
                 </div>
                 <div class="card">
                     <img class="cover-img"
-                        src="https://scontent.fhan5-8.fna.fbcdn.net/v/t1.6435-9/107102460_700597944127909_8703576815857672183_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=300f58&_nc_eui2=AeG2Yp7zI5uiB1HBHfTzsslvSo6SARCgK6NKjpIBEKAro8KZDLmZIVDrTcntbLeMPHZkCaVkZk19NloTETpAkEtl&_nc_ohc=NTImJ5M58VIAX-7HAbe&_nc_ht=scontent.fhan5-8.fna&oh=00_AfBKKJA5q7HcfiWsdVVSdDFd0nh2n-Qpeda-cQGvWcgu7A&oe=65AA8D6D"
+                        src="<?php echo _DEFAULT_PATH ?>/assets/images/_founder_bg_2.jpg"
                         alt="">
                     <img class="avt"
                         src="<?php echo _DEFAULT_PATH ?>/assets/images/_founder_hunterdo.png"
